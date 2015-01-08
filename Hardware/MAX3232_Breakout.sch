@@ -258,9 +258,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 </polygon>
 </package>
 <package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="27">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="27">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="11.43" y="0" size="1.778" layer="27">Designed by:</text>
+<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51">Designed by:</text>
+<text x="29.21" y="10.16" size="1.27" layer="16" font="vector" ratio="15" rot="SMR0">&gt;VERSION</text>
+<text x="26.67" y="0" size="1.778" layer="51">&gt;DESIGNER</text>
 </package>
 <package name="SFE_LOGO_FLAME_.1">
 <polygon width="0" layer="21">
@@ -2611,6 +2613,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="4.64" y="6.55"/>
 </polygon>
 </package>
+<package name="DUMMY">
+<description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -2647,9 +2652,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="1.524" y="17.78" size="2.54" layer="94" font="vector">TITLE:</text>
 <text x="15.494" y="17.78" size="2.7432" layer="94" font="vector">&gt;DRAWING_NAME</text>
 <text x="2.54" y="31.75" size="1.9304" layer="94">Released under the Creative Commons</text>
-<text x="2.54" y="27.94" size="1.9304" layer="94">Attribution Share-Alike 3.0 License</text>
-<text x="2.54" y="24.13" size="1.9304" layer="94">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="2.54" y="27.94" size="1.9304" layer="94">Attribution Share-Alike 4.0 License</text>
+<text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
+<text x="22.86" y="11.684" size="2.54" layer="94">&gt;DESIGNER</text>
+<text x="88.9" y="6.604" size="2.54" layer="94" font="vector">&gt;VERSION</text>
 </symbol>
 <symbol name="VCC2">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
@@ -6352,17 +6359,28 @@ We've spent an enormous amount of time creating and checking these footprints an
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FRAME-LETTER" prefix="FRAME">
+<deviceset name="FRAME-LETTER" prefix="FRAME" uservalue="yes">
 <description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
 Standard 8.5x11 US Letter frame</description>
 <gates>
 <gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
-<gate name="G$2" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
+<gate name="V" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
 </gates>
 <devices>
 <device name="" package="CREATIVE_COMMONS">
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DESIGNER" value="NAME" constant="no"/>
+<attribute name="VERSION" value="v01" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="NO_PACKAGE" package="DUMMY">
+<technologies>
+<technology name="">
+<attribute name="DESIGNER" value="Nobody" constant="no"/>
+<attribute name="VERSION" value="v01" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -7335,6 +7353,8 @@ Standard decoupling cap</description>
 <part name="JP3" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="JP4" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
+<part name="P+2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
+<part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7351,14 +7371,18 @@ Standard decoupling cap</description>
 <text x="96.52" y="73.66" size="2.54" layer="97">TTL/CMOS</text>
 <text x="119.38" y="129.54" size="2.54" layer="97">3.0V &lt; VCC &lt; 5.5V</text>
 <text x="166.116" y="11.43" size="2.54" layer="94">Mike Hord</text>
-<text x="238.252" y="6.35" size="3.81" layer="94">V10</text>
-<text x="189.23" y="12.446" size="2.54" layer="94" ratio="10">Revised by: Patrick Alberts</text>
+<text x="148.336" y="7.112" size="2.54" layer="94" ratio="10">Revised by: Patrick Alberts</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">v11</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0">
 <attribute name="NO_PART" x="0" y="0" size="3.81" layer="96" display="off"/>
 </instance>
-<instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
+<instance part="FRAME1" gate="V" x="147.32" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="DRAWING_NAME" x="162.814" y="17.78" size="2.7432" layer="94" font="vector"/>
+</instance>
 <instance part="P+1" gate="1" x="132.08" y="121.92"/>
 <instance part="GND1" gate="1" x="180.34" y="96.52"/>
 <instance part="U1" gate="G$1" x="129.54" y="96.52">
@@ -7404,6 +7428,8 @@ Standard decoupling cap</description>
 <instance part="JP3" gate="G$1" x="223.52" y="33.02"/>
 <instance part="JP4" gate="G$1" x="223.52" y="27.94"/>
 <instance part="LOGO1" gate="G$1" x="213.36" y="38.1"/>
+<instance part="P+2" gate="1" x="68.58" y="157.48"/>
+<instance part="GND3" gate="1" x="68.58" y="147.32"/>
 </instances>
 <busses>
 </busses>
@@ -7451,9 +7477,10 @@ Standard decoupling cap</description>
 <junction x="132.08" y="119.38"/>
 </segment>
 <segment>
-<wire x1="86.36" y1="154.94" x2="83.82" y2="154.94" width="0.1524" layer="91"/>
-<label x="83.82" y="154.94" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="86.36" y1="154.94" x2="68.58" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="154.94" x2="68.58" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="5"/>
+<pinref part="P+2" gate="1" pin="VCC"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -7491,9 +7518,10 @@ Standard decoupling cap</description>
 <junction x="180.34" y="106.68"/>
 </segment>
 <segment>
-<wire x1="86.36" y1="152.4" x2="83.82" y2="152.4" width="0.1524" layer="91"/>
-<label x="83.82" y="152.4" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="86.36" y1="152.4" x2="68.58" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="152.4" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="6"/>
+<pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="T1OUT" class="0">
