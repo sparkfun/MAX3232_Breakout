@@ -7413,8 +7413,8 @@ Standard decoupling cap</description>
 <attribute name="VALUE" x="177.8" y="100.711" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND2" gate="1" x="132.08" y="66.04"/>
-<instance part="JP2" gate="G$1" x="96.52" y="147.32" rot="R180">
-<attribute name="NO_PART" x="96.52" y="147.32" size="3.81" layer="96" rot="R180" display="off"/>
+<instance part="JP2" gate="G$1" x="73.66" y="93.98" rot="R180">
+<attribute name="NO_PART" x="73.66" y="93.98" size="3.81" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="U$1" gate="G$1" x="236.22" y="45.72">
 <attribute name="NO_PART" x="236.22" y="45.72" size="3.81" layer="96" display="off"/>
@@ -7428,8 +7428,8 @@ Standard decoupling cap</description>
 <instance part="JP3" gate="G$1" x="223.52" y="33.02"/>
 <instance part="JP4" gate="G$1" x="223.52" y="27.94"/>
 <instance part="LOGO1" gate="G$1" x="213.36" y="38.1"/>
-<instance part="P+2" gate="1" x="68.58" y="157.48"/>
-<instance part="GND3" gate="1" x="68.58" y="147.32"/>
+<instance part="P+2" gate="1" x="45.72" y="104.14"/>
+<instance part="GND3" gate="1" x="45.72" y="93.98"/>
 </instances>
 <busses>
 </busses>
@@ -7477,8 +7477,8 @@ Standard decoupling cap</description>
 <junction x="132.08" y="119.38"/>
 </segment>
 <segment>
-<wire x1="86.36" y1="154.94" x2="68.58" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="154.94" x2="68.58" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="101.6" x2="45.72" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="101.6" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="5"/>
 <pinref part="P+2" gate="1" pin="VCC"/>
 </segment>
@@ -7518,8 +7518,8 @@ Standard decoupling cap</description>
 <junction x="180.34" y="106.68"/>
 </segment>
 <segment>
-<wire x1="86.36" y1="152.4" x2="68.58" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="152.4" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="99.06" x2="45.72" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="99.06" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="6"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
@@ -7531,8 +7531,8 @@ Standard decoupling cap</description>
 <label x="152.4" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="86.36" y1="165.1" x2="83.82" y2="165.1" width="0.1524" layer="91"/>
-<label x="83.82" y="165.1" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="63.5" y1="111.76" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
+<label x="60.96" y="111.76" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -7544,8 +7544,8 @@ Standard decoupling cap</description>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="162.56" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
-<label x="83.82" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="63.5" y1="109.22" x2="60.96" y2="109.22" width="0.1524" layer="91"/>
+<label x="60.96" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="R1IN" class="0">
@@ -7555,8 +7555,8 @@ Standard decoupling cap</description>
 <label x="152.4" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="86.36" y1="160.02" x2="83.82" y2="160.02" width="0.1524" layer="91"/>
-<label x="83.82" y="160.02" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="63.5" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
+<label x="60.96" y="106.68" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -7568,8 +7568,8 @@ Standard decoupling cap</description>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="4"/>
-<wire x1="83.82" y1="157.48" x2="86.36" y2="157.48" width="0.1524" layer="91"/>
-<label x="83.82" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="60.96" y1="104.14" x2="63.5" y2="104.14" width="0.1524" layer="91"/>
+<label x="60.96" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="T1IN" class="0">
@@ -7579,8 +7579,8 @@ Standard decoupling cap</description>
 <label x="111.76" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="86.36" y1="149.86" x2="83.82" y2="149.86" width="0.1524" layer="91"/>
-<label x="83.82" y="149.86" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="63.5" y1="96.52" x2="60.96" y2="96.52" width="0.1524" layer="91"/>
+<label x="60.96" y="96.52" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="7"/>
 </segment>
 </net>
@@ -7591,8 +7591,8 @@ Standard decoupling cap</description>
 <label x="111.76" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="86.36" y1="147.32" x2="83.82" y2="147.32" width="0.1524" layer="91"/>
-<label x="83.82" y="147.32" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="63.5" y1="93.98" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
+<label x="60.96" y="93.98" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="8"/>
 </segment>
 </net>
@@ -7603,8 +7603,8 @@ Standard decoupling cap</description>
 <label x="111.76" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="86.36" y1="144.78" x2="83.82" y2="144.78" width="0.1524" layer="91"/>
-<label x="83.82" y="144.78" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="63.5" y1="91.44" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
+<label x="60.96" y="91.44" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="9"/>
 </segment>
 </net>
@@ -7615,8 +7615,8 @@ Standard decoupling cap</description>
 <label x="111.76" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="86.36" y1="142.24" x2="83.82" y2="142.24" width="0.1524" layer="91"/>
-<label x="83.82" y="142.24" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="63.5" y1="88.9" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
+<label x="60.96" y="88.9" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="JP2" gate="G$1" pin="10"/>
 </segment>
 </net>

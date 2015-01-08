@@ -163,7 +163,7 @@
 <text x="-1.143" y="-16.891" size="1.778" layer="51" font="vector" ratio="10">Revised by:Patrick Alberts</text>
 <text x="13.335" y="-13.97" size="1.778" layer="51" font="vector" ratio="10">M Hord</text>
 <rectangle x1="17.145" y1="7.239" x2="17.78" y2="7.62" layer="41"/>
-<rectangle x1="7.493" y1="5.715" x2="8.89" y2="7.366" layer="41"/>
+<rectangle x1="7.493" y1="5.842" x2="7.62" y2="8.509" layer="41"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
