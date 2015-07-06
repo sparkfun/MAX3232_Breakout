@@ -1,9 +1,9 @@
 SparkFun Transceiver Breakout - MAX3232
 ===============================
 
-![SparkFun Transceiver Breakout - MAX3232](https://www.sparkfun.com/products/11189)
+![SparkFun Transceiver Breakout - MAX3232](https://cdn.sparkfun.com//assets/parts/6/7/3/8/11189-02a.jpg)
 
-[*SparkFun Transceiver Breakout - MAX3232 (BOB-11189)*](https://cdn.sparkfun.com//assets/parts/6/7/3/8/11189-02a.jpg)
+[*SparkFun Transceiver Breakout - MAX3232 (BOB-11189)*](https://www.sparkfun.com/products/11189)
 
 This is the RS232 converter IC that is capable of running at 3V and communicating with 5V logic.
 We’ve taken the SOIC package MAX3232 and broken out all the pins you need to set up your RS232 to TTL connection. 
