@@ -14,6 +14,10 @@ Repository Contents
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
 
+Documentation
+-------------------
+* [Serial Communication](https://learn.sparkfun.com/tutorials/serial-communication) - Basic tutorial on serial communication implemented on logic-level (TTL) and RS-232.
+
 License Information
 -------------------
 
