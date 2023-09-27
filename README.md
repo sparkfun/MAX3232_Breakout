@@ -16,8 +16,8 @@ Repository Contents
 
 Documentation
 -------------------
-* [Serial Communication](https://learn.sparkfun.com/tutorials/serial-communication) - Basic tutorial on serial communication implemented on logic-level (TTL) and RS-232.
-* [Fritzing Part](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/11189-sfe_transceiver_breakout_max3232_rs232_converter_ttl.fzpz)
+* **[Serial Communication](https://learn.sparkfun.com/tutorials/serial-communication)** - Basic tutorial on serial communication implemented on logic-level (TTL) and RS-232.
+* **[Fritzing Part](https://github.com/sparkfun/Fritzing_Parts/blob/main/products/11189-sfe_transceiver_breakout_max3232_rs232_converter_ttl.fzpz)**
 
 License Information
 -------------------
