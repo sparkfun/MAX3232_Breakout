@@ -1,7 +1,7 @@
 SparkFun Transceiver Breakout - MAX3232
 ===============================
 
-![SparkFun Transceiver Breakout - MAX3232](https://cdn.sparkfun.com//assets/parts/6/7/3/8/11189-02a.jpg)
+[![SparkFun Transceiver Breakout - MAX3232](https://cdn.sparkfun.com//assets/parts/6/7/3/8/11189-02a.jpg)](https://www.sparkfun.com/products/11189)
 
 [*SparkFun Transceiver Breakout - MAX3232 (BOB-11189)*](https://www.sparkfun.com/products/11189)
 
